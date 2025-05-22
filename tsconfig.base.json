@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@online-shop/shared-data-access": [
+        "libs/shared/data-access/configs/postgres/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
